@@ -1,0 +1,11 @@
+{
+  "name": "text-view",
+  "description": "short text viewer",
+  "dependencies": {},
+  "keywords": [
+    "web-components",
+    "description",
+    "short text",
+    "comment"
+  ]
+}
