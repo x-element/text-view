@@ -23,7 +23,11 @@
       if (!this.text) {
         return;
       }
-      this.short_text = this.text.slice(0, this.limit) + '...';
+      if (this.text.length > this.limit) {
+        this.short_text = this.text.slice(0, this.limit) + '...';
+        return;
+      }
+      this.short_text = this.text.slice(0, this.limit);
     }
 
   });
