@@ -27,7 +27,7 @@
         this.short_text = this.text.slice(0, this.limit) + '...';
         return;
       }
-      this.short_text = this.text.slice(0, this.limit);
+      this.short_text = this.text.toString().slice(0, this.limit);
     }
 
   });
